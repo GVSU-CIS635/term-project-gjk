@@ -1,0 +1,33 @@
+BACI_HS92_V202501/
+.DS_Store
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local development settings
+.env
+.venv
+
+# Credentials and secrets
+*.pem
+credentials.json
+client_secret.json
+config.ini
+.env.*
+*.key
